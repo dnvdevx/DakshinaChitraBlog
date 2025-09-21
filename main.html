@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Day at Dakshina Chitra</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* minimal CSS changes for navbar and scroll offset */
+    html { scroll-behavior: smooth; }
+
+    #navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #48a7a5;
+      z-index: 1000;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: top 0.3s;
+    }
+    .nav-inner {
+      max-width: 900px;
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+      padding: 12px 0;
+    }
+    #navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: 0.3s;
+    }
+    #navbar a:hover {
+      background: #368585;
+    }
+
+    /* offset headings so navbar doesn't block them */
+    h2, h3 {
+      scroll-margin-top: 90px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar">
+    <div class="container nav-inner">
+      <a href="#intro">Intro</a>
+      <a href="#main">Main Body</a>
+      <a href="#conclusion">Conclusion</a>
+      <a href="#cta">Call to Action</a>
+      <a href="#share">Share</a>
+      <a href="#comments">Comments</a>
+    </div>
+  </nav>
+
+  <!-- ===== HEADER / TITLE ===== -->
+  <header>
+    <div class="container">
+      <h1>A Day at Dakshina Chitra</h1>
+      <p>By Dani Noble | September 2025</p>
+    </div>
+  </header>
+  
+
+  <!-- ===== INTRODUCTION ===== -->
+  <section id="intro" class="container">
+    <h2>Introduction</h2>
+    <p>
+     This blog is about my visit to <strong>Dakshana Chitra</strong>,
+     a living museum located on the East Coast Road near Chennai. 
+     Dakshina Chitra preserves the art, buildings, and culture of South India, 
+     showing how people lived long ago. During my visit, 
+     I saw traditional houses from different states, watched artisans making crafts like pottery and weaving, 
+     and learned about local customs. I also walked through the courtyards and gardens, 
+     which gave me a feel of the old South Indian lifestyle. Being a South Indian myself, 
+     I enjoyed the visit and felt as if I were back in my hometown.
+    </p>
+  </section>
+
+  <!-- ===== MAIN BODY ===== -->
+  <section id="main" class="container">
+    <h2>Main Body</h2>
+
+    <article>
+      <h3>1. Getting There & First Impressions</h3>
+      <p>
+        Dakshina Chitra is about 25 km from Chennai city centre along the
+        East Coast Road. The entry fee is ₹175 for Indian adults
+        and the museum is open from 10 AM to 6 PM (closed on Tuesdays).
+      </p>
+      <ul>
+        <li>Distance from Chennai: <strong>~25 km</strong></li>
+        <li>Entry Fee: <strong>₹170 (Indian adults)</strong></li>
+        <li>Best time to visit: <strong>Morning or late afternoon</strong></li>
+      </ul>
+      <h3>Entrance</h3>
+      <img src="Images/Entrance.webp">
+      <h3>Reception Area</h3>
+      <img src="Images/Reception.jpg">
+    </article>
+
+    <article>
+      <h3>2. Exploring the Heritage Houses</h3>
+      <p>
+        The best part of Dakshina Chitra is its heritage houses. 
+        Each house shows the traditional style of a different South Indian state, 
+        like Tamil Nadu, Kerala, Karnataka, and Andhra Pradesh. 
+        As I walked around, I noticed the different designs, materials,
+        and decorations in each home. 
+        From wooden pillars and terracotta roofs in Tamil Nadu houses to sloping 
+        tiled roofs in Kerala homes, every house tells a story about how people lived in the past. 
+        It felt like I went back in time and exploring the culture of South India.
+      </p>
+      <h3>Hindu Kerala House</h3>
+      <img src="Images/Kerala House.jpg">
+      <h3>Tamil Nadu Merchant House</h3>
+      <img src="Images/tamilnadumerchanthouse.jpg">
+    </article>
+
+    <article>
+      <h3>3. Cultural Activities & Performances</h3>
+      <p>
+        One of my favorite parts of Dakshina Chitra was the cultural activities and performances. 
+        Throughout the day, the museum has live demonstrations where artisans show traditional crafts like pottery,
+        weaving, and puppetry. Watching them work with such skill made me appreciate how much talent and patience
+        goes into these crafts.Visitors can also join hands-on activities, like coloring or drawing on cloth bags, 
+        painting small crafts, or trying simple art projects. Doing these activities makes learning about the culture much 
+        more fun because you get to take a piece of it home! Besides the performances, the museum has many artifacts on display, 
+        such as old tools, musical instruments, household items, and traditional clothing. Each piece tells a story about
+        how people lived, worked, and celebrated in the past. Seeing these artifacts 
+        up close made me feel a deeper connection to South Indian history and traditions.
+      </p>
+      <h3>Pottery Making</h3>
+      <img src="Images/Pottery.jpg">
+      <h3>Artifacts</h3>
+      <img src="Images/Artifact.jpg">
+      <img src="Images/Artifact2.jpg">
+      <h3>Painting</h3>
+      <img src="Images/Painting.jpg">
+    </article>
+
+  </section>
+
+  <section class="container">
+    <article>
+      <h3 id="conclusion">Conclusion</h3>
+      <p>
+        Visiting Dakshina Chitra was an experience I will never forget. 
+        I really enjoyed walking through the traditional houses, seeing the colorful artifacts, 
+        and watching the live performances. The hands-on activities, like coloring bags and trying out crafts,
+        made the visit even more fun and memorable.
+
+        Being from Kerala, it was especially exciting to see the traditional Kerala houses and art forms. 
+        It felt like a piece of my own culture was right there in front of me, and I could connect with it in a very personal way.
+        At the same time, exploring the heritage of Tamil Nadu, Karnataka, and Andhra Pradesh gave me a fresh perspective on the 
+        diversity of South India.
+
+        Overall, Dakshina Chitra is not just a museum; it's a living,
+        breathing celebration of South Indian life. I truly enjoyed every part of it, 
+        from the performances to the crafts, and I felt deeply connected to the culture and history. 
+        I would definitely recommend it to anyone who wants a meaningful and unique cultural experience.
+      </p>
+      <img src="Images/Conclusion.jpg">
+      <img src="Images/Conclusion1.jpg">
+    </article>
+  </section>
+
+  <!-- ===== CALL TO ACTION ===== -->
+  <section id="cta" class="container">
+    <h2>Plan Your Own Visit!</h2>
+    <p>
+      Inspired to explore South India’s culture? Plan a day at
+      <strong>Dakshina Chitra</strong> on your next trip to Chennai.
+    </p>
+    <a class="btn" href="#comments">Share Your Experience</a>
+  </section>
+
+  <!-- ===== SHARE ===== -->
+  <section id="share" class="container">
+    <h2>Share this Blog</h2>
+    <div class="share-buttons">
+      <a href="#" class="share">Facebook</a>
+      <a href="#" class="share">Twitter</a>
+      <a href="#" class="share">Instagram</a>
+    </div>
+  </section>
+
+  <!-- ===== COMMENTS ===== -->
+  <section id="comments" class="container">
+  <h2>Leave a Comment</h2>
+  <form id="commentForm">
+    <label for="nameInput">Name</label>
+    <input type="text" id="nameInput" placeholder="Your name" required>
+
+    <label for="commentInput">Comment</label>
+    <textarea id="commentInput" placeholder="Write your comment..." required></textarea>
+
+    <button type="submit">Post Comment</button>
+  </form>
+
+  <div id="commentSection"></div>
+</section>
+
+<script>
+  // Comment posting
+  const form = document.getElementById("commentForm");
+  form.addEventListener("submit", function(event) {
+    event.preventDefault(); 
+    const name = document.getElementById("nameInput").value.trim();
+    const comment = document.getElementById("commentInput").value.trim();
+    if (name && comment) {
+      const div = document.createElement("div");
+      div.style.padding = "10px 0";
+      div.style.borderBottom = "1px solid #ccc";
+      div.innerHTML = `<strong>${name}:</strong> ${comment}`;
+      document.getElementById("commentSection").appendChild(div);
+      document.getElementById("nameInput").value = "";
+      document.getElementById("commentInput").value = "";
+    }
+  });
+
+  // Navbar hide on click / reappear
+  const navbar = document.getElementById("navbar");
+  let hideTimeout;
+
+  document.querySelectorAll("#navbar a").forEach(link => {
+    link.addEventListener("click", () => {
+      navbar.style.top = `-${navbar.offsetHeight}px`;
+      if (hideTimeout) clearTimeout(hideTimeout);
+      hideTimeout = setTimeout(() => {
+        navbar.style.top = "0";
+      }, 800);
+    });
+  });
+
+  let lastScroll = 0;
+  window.addEventListener("scroll", () => {
+    const currentScroll = window.pageYOffset;
+    if (currentScroll < lastScroll) navbar.style.top = "0";
+    lastScroll = currentScroll;
+  });
+
+  document.addEventListener("mousemove", e => {
+    if (e.clientY < 50) navbar.style.top = "0";
+  });
+</script>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2025 Dani Noble | Dakshina Chitra Blog</p>
+  </footer>
+
+</body>
+</html>
