@@ -7,7 +7,7 @@ body {
   line-height:1.7;
 }
 
-/* NAVIGATION */
+
 #navbar {
   position: fixed;
   top: 0;
@@ -37,12 +37,12 @@ body {
   background: #368585;
 }
 
-/* HEADER */
+
 header {
   background:#4aa3a3;
   color:#fff;
   text-align:center;
-  padding:100px 20px 50px; /* spacing below navbar */
+  padding:100px 20px 50px; 
 }
 header h1 { font-size:2.5rem; margin-bottom:10px; }
 
@@ -57,13 +57,13 @@ h2 {
   color:#4aa3a3;
   margin-bottom:15px;
   text-align:center;
-  scroll-margin-top:90px; /* ensures heading not blocked by navbar */
+  scroll-margin-top:90px; 
 }
 h3 {
      margin:15px 0 10px; 
 }
 h1,h2, h3 {
-  scroll-margin-top: 90px; /* adjust to match navbar height */
+  scroll-margin-top: 90px; 
 }
 a { 
     color:#4aa3a3; 
@@ -81,12 +81,12 @@ article img { width:100%; margin-top:10px; border-radius:6px; }
 
 ul { list-style:disc inside; margin-top:10px; }
 
-/* Share Buttons */
+
 .share-buttons { text-align:center; }
 .share { display:inline-block; margin:0 8px; background:#4aa3a3; color:#fff; padding:8px 15px; border-radius:4px; transition:0.3s; }
 .share:hover { background:#368585; }
 
-/* Forms */
+
 form { background:#fff; padding:20px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
 label { display:block; margin:10px 0 5px; font-weight:bold; }
 input, textarea { width:100%; padding:10px; margin-bottom:15px; border:1px solid #ccc; border-radius:4px; font-size:1rem; }
@@ -94,3 +94,4 @@ button { background:#4aa3a3; color:#fff; border:none; padding:10px 20px; border-
 button:hover { background:#368585; }
 
 footer { background:#333; color:#fff; text-align:center; padding:20px; margin-top:30px; }
+
